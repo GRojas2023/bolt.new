@@ -1,0 +1,21 @@
+# FastAPI y dependencias principales
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Base de datos y ORM
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Validación de datos
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# CORS y middleware
+python-multipart==0.0.6
+
+# Base de datos SQLite (incluida en Python)
+# Para PostgreSQL, descomenta la siguiente línea:
+# psycopg2-binary==2.9.9
+
+# Herramientas de desarrollo
+python-dotenv==1.0.0
